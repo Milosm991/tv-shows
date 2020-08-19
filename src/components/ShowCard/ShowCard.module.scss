@@ -1,0 +1,19 @@
+.show{
+    margin-top: 20px;
+    text-align: center;
+    .showCard:hover{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.5);
+    }
+    .genre{
+        margin-right: 1em;
+        border: solid 1px #f96900;
+        border-radius: 1em;
+        background-color: #f96900;
+        padding: 4px;
+        color: white;
+        font-size: 15px;
+    }
+    
+}
+
+

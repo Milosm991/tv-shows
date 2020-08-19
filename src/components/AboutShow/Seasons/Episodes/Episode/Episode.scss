@@ -1,0 +1,36 @@
+.episodesCol{
+    margin-bottom: 1em;
+
+    .episode{
+        border-radius: 15px;
+        text-align: center;
+        background-color: #dce2c8;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 1.5s;
+        transform-style: preserve-3d;
+
+    }
+}
+
+.episode:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    
+}
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: #f17f29;
+    color: white;
+    padding: 20px;
+    transform: rotateY(180deg);
+    overflow-y: hidden;
+}

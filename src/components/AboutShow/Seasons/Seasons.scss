@@ -1,0 +1,37 @@
+.seasons {
+    border: solid 1px #f96900;
+    border-radius: 10px;
+    width: 10em;
+    background-color: #f96900;
+    cursor: pointer;
+    h3{
+        padding: 4px;
+        margin-left: 4px;
+        color: white;
+    }
+
+    .listOfDates {
+        display: none;
+        
+    }
+
+    .show{ 
+        display: block;
+        color: white;
+        position: relative;
+        
+        a{
+            color: white;
+        }
+        h6{
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .seasons{
+        margin-top: 20px;
+    } 
+}

@@ -1,0 +1,36 @@
+.akas {
+    border: solid 1px #f96900;
+    border-radius: 10px;
+    width: 10em;
+    background-color: #f96900;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    h3{
+        padding: 4px;
+        margin-left: 4px;
+        color: white;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0px;
+    }
+    .listOfAkas {
+        display: none;
+        
+    }
+
+    .active{ 
+        display: block;
+        color: white;
+        position: relative;
+        
+        a{
+            color: white;
+        }
+        h6{
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.list{
+    position: absolute;
+    z-index: 1;
+    top: 8.2rem;
+    left: 22.1rem;
+    width: 56.5%;
+    .show{
+        border: solid 1px black;
+        background-color: rgba(0, 0, 0, 0.7);
+        .image{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+    a{
+        color: white;
+    }
+}
+
+@media(max-width: 1200px){
+    .list{
+        position: absolute;
+        z-index: 1;
+        top: 8.2rem;
+        left: 13rem;
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 990px){
+    .list{
+        position: absolute;
+        z-index: 1;
+        top: 8.2rem;
+        left: 16rem;
+        width: 50%;
+    }
+}
+
+@media(max-width: 766px){
+    .list{
+        position: absolute;
+        z-index: 1;
+        top: 8.2rem;
+        left: 13rem;
+        width: 50%;
+    }
+}
+
+@media(max-width: 640px){
+    .list{
+        position: absolute;
+        z-index: 1;
+        top: 8.2rem;
+        left: 6rem;
+        width: 70%;
+    }
+}
